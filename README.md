@@ -9,7 +9,7 @@ This is a joint work of [Kshitij Kayastha](https://github.com/kshitij-kayastha),
 2. Create and activate a virtual environment
 
 ```shell
-cd "RobustRecourse"
+cd "LearningAugmentedRobustRecourse"
 python -m venv .env
 source .env/bin/activate
 ```
@@ -22,7 +22,7 @@ pip install requirements.txt
 
 ## Reproducing Results
 
-You can replicate the experiments described in the paper by running the notebooks in the `src/` directory. Notebooks that start with 'run' produce the results of the experiments, while the ones that start with 'results' visualize the results.
+You can replicate the experiments described in the paper by running the notebooks in the `experiments/` directory.
 
 Inside each of these notebooks, you can specify the dataset and the base model.
 
